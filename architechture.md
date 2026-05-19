@@ -1,3 +1,4 @@
+
 # PodSense — System Architecture
 
 ## Overview
@@ -75,3 +76,10 @@ Pod Metrics
 → CPU Agent detects spikes
 → Memory Agent detects leaks
 → Dashboard displays everything
+
+
+
+
+
+
+
