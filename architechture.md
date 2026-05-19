@@ -48,8 +48,8 @@ real-time monitoring with AI-powered root cause analysis.
 └────────────┬────────────┘
 │
 ┌────────────▼────────────┐
-│      Dashboard          │
-│  (Streamlit / React)    │
+│ Graphana Dashboard      │
+│    │
 │  - CPU Graph            │
 │  - Memory Graph         │
 │  - Dependency Map       │
@@ -80,8 +80,7 @@ real-time monitoring with AI-powered root cause analysis.
 | cpu_agent.py | Detect CPU spikes (threshold > 80%) |
 | memory_agent.py | Detect memory leaks and pressure |
 | dependency_mapper.py | Map pod relationships and blast radius |
-| orchestrator.py | Combine agent outputs, find root cause |
-| recommendation_engine.py | Generate actionable fix suggestions |
+
 
 ### 4. Data Flow
 Pod Metrics
@@ -89,7 +88,4 @@ Pod Metrics
 → AI Agents pull metrics
 → CPU Agent detects spikes
 → Memory Agent detects leaks
-→ Dependency Mapper finds blast radius
-→ Orchestrator correlates findings
-→ Recommendation Engine suggests fixes
 → Dashboard displays everything
