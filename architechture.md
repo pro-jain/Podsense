@@ -35,16 +35,7 @@ real-time monitoring with AI-powered root cause analysis.
 │  │ Dependency      │    │
 │  │ Mapper          │    │
 │  └────────┬────────┘    │
-│           │             │
-│  ┌────────▼────────┐    │
-│  │  Orchestrator   │    │
-│  │ (Root Cause AI) │    │
-│  └────────┬────────┘    │
-│           │             │
-│  ┌────────▼────────┐    │
-│  │ Recommendation  │    │
-│  │    Engine       │    │
-│  └─────────────────┘    │
+│                        │
 └────────────┬────────────┘
 │
 ┌────────────▼────────────┐
@@ -74,15 +65,10 @@ real-time monitoring with AI-powered root cause analysis.
 | grafana-dashboard.json | Visual dashboard config |
 | metrics-queries.md | PromQL reference queries |
 
-### 3. AI Agent Layer
-| Agent | Responsibility |
-|-------|---------------|
-| cpu_agent.py | Detect CPU spikes (threshold > 80%) |
-| memory_agent.py | Detect memory leaks and pressure |
-| dependency_mapper.py | Map pod relationships and blast radius |
 
 
-### 4. Data Flow
+
+### 3. Data Flow
 Pod Metrics
 → Prometheus scrapes every 15s
 → AI Agents pull metrics
