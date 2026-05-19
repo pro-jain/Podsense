@@ -25,7 +25,7 @@ spec:
             - name: GF_SECURITY_ADMIN_USER
               value: "admin"
             - name: GF_SECURITY_ADMIN_PASSWORD
-              value: "admin123"
+              value: ""
             - name: GF_AUTH_ANONYMOUS_ENABLED
               value: "true"
           volumeMounts:
