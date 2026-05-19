@@ -10,7 +10,12 @@ real-time monitoring with AI-powered root cause analysis.
 ## High-Level Architecture
 ---
 
-│                  Kubernetes Cluster                     │
+│                  Kubernetes Cluster  
+
+
+
+
+│
 │                                                         │
 │   ┌──────────┐    ┌──────────┐    ┌──────────┐          │
 │   │ Frontend │───▶│ Backend  │───▶│  MySQL   │         │
