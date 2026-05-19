@@ -1,0 +1,23 @@
+[
+  {
+    "pod": "frontend",
+    "cpu": 30,
+    "memory": 40,
+    "disk_io": 10,
+    "restarts": 0
+  },
+  {
+    "pod": "backend-api",
+    "cpu": 95,
+    "memory": 92,
+    "disk_io": 75,
+    "restarts": 3
+  },
+  {
+    "pod": "database",
+    "cpu": 70,
+    "memory": 65,
+    "disk_io": 90,
+    "restarts": 1
+  }
+]
